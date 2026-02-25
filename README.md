@@ -2,39 +2,49 @@
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/topics/python)
 
-# Visualização orbital gráfica da transferência de Hohmann
+# Graphical Orbital Visualization of a Hohmann Transfer
 
+This repository contains a Python script for the analytical computation and graphical visualization of a **Hohmann transfer maneuver**, used to transfer a spacecraft between two circular Earth orbits with minimum propellant expenditure.
 
-Este repositório contém um script em Python que permite a visualização gráfica da **manobra de transferência de Hohmann**, utilizada para mover uma espaçonave entre duas órbitas circulares ao redor da Terra com eficiência energética.
+---
 
-##  Descrição
+## Description
 
-A transferência de Hohmann é uma manobra orbital amplamente empregada em missões espaciais para realizar mudanças de órbita com o menor gasto possível de combustível. Este projeto:
+The Hohmann transfer is a two-impulse orbital maneuver widely applied in space missions to achieve orbit changes with optimal energy efficiency.
 
-- Solicita os raios das órbitas inicial (`r1`) e final (`r2`);
-- Calcula a órbita elíptica de transferência;
-- Gera um gráfico com:
-  - A Terra no centro;
-  - As órbitas circular inicial e final;
-  - A elipse da transferência de Hohmann;
-  - Vetores de impulso (`Δv₁` e `Δv₂`);
-  - Perigeu e apogeu destacados.
+This project:
 
-##  Exemplo de Aplicação
+- Accepts user-defined initial (`r1`) and final (`r2`) orbital radii;
+- Computes the semi-major axis of the transfer ellipse;
+- Calculates required velocity increments (Δv₁ and Δv₂);
+- Generates a graphical visualization including:
+  - Earth at the center;
+  - Initial circular orbit;
+  - Final circular orbit;
+  - Transfer ellipse;
+  - Impulse vectors (Δv₁ and Δv₂);
+  - Highlighted perigee and apogee.
 
-Este script é útil para:
+---
 
-- Demonstrações didáticas em cursos de Mecânica Orbital;
-- Projetos acadêmicos em engenharia aeroespacial;
-- Simulações simples de trajetórias orbitais.
+## Applications
 
-##  Exemplo
+This script is suitable for:
 
-Digite os valores solicitados:
+- Orbital mechanics demonstrations;
+- Aerospace engineering coursework;
+- Preliminary trajectory design analysis;
+- Educational visualization of two-impulse transfer strategies.
 
-Digite o raio da órbita inicial (r1) em km: (ex: 6578)
+---
 
-Digite o raio da órbita inicial (r2) em km: (ex: 42250)
+## Example Usage
+
+Input the requested values:
+
+```text
+Enter the initial orbital radius (r1) in km (e.g., 6578):
+Enter the final orbital radius (r2) in km (e.g., 42250):
 
 ![Texto alternativo da imagem](orbita.png)
 
