@@ -42,7 +42,7 @@ This script is suitable for:
 
 Input the requested values:
 
-```text
+
 Enter the initial orbital radius (r1) in km (e.g., 6578):
 Enter the final orbital radius (r2) in km (e.g., 42250):
 
